@@ -1,6 +1,6 @@
 #!/bin/bash
 
-latest_release="22.03.2"
+latest_release="22.03"
 git clone --single-branch -b ${latest_release} https://github.com/openwrt/openwrt openwrt_release
 git clone --single-branch -b openwrt-22.03 https://github.com/openwrt/openwrt openwrt
 rm -f ./openwrt/include/version.mk
